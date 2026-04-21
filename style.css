@@ -1,0 +1,548 @@
+*{
+    padding:0%;
+    margin:0%;
+}
+
+#navbar{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color:#973131;
+}
+#navbar ul{
+    display: flex;
+}
+#nav-sec ul li{
+     list-style-type: none;
+     padding: 5px 5px;
+    }
+#nav-sec::before{
+    content: "";
+    position: absolute;
+    background-color: rgb(138, 117, 42);
+    height:100%;
+    top:0%;
+  }   
+
+#nav-sec ul li a{
+text-decoration: none;
+list-style-type: none;
+display: block;
+color: #F9D689;
+padding: 10px;
+font-size: 16px;
+
+}
+#nav-sec ul li a:hover{
+    border-radius: 20px;
+    background-color: #F5E7B2;
+    color:#BC5A94;
+    transition: all 0.2s ease-in-out;
+}
+
+
+#home-logo img{
+    
+    height:150px;
+    width:200px;
+    margin-top:2px;
+    
+    
+
+}
+#home-section{
+    height:500px;
+    padding-left:px;
+}
+#home-section::before{
+    content:"";
+    position: absolute;
+    background-image: url('./assests/bgburger.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:80%;
+    width:100%;
+    z-index:-1;
+    opacity:0.89;
+
+}
+
+#h-primary{
+    
+    color:#F9D689;
+    padding-left: 50px;
+    margin-left: 20px;
+    width:400px;
+}
+.alignp{
+    padding: 10px;
+}
+#h-p{
+    font-size:90px;
+}
+
+.btn{
+    color:#973131;
+    background-color: #F9D689;
+    height:40px;
+    width: 200px;
+    border-radius: 20px;
+
+   
+
+}
+.btn:hover{
+    text-decoration: underline;
+    transition:all 1s skew;
+    border:3px solid #BC5A94;
+    border-bottom: #F5E7B2;
+    text-shadow: 0lvh;
+    
+    
+}
+
+#Home-content{
+    height:400px;
+    background-color:#F9D689;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+
+    
+}
+
+#home-content::before{
+    content: "";
+    position: absolute;
+    top:0px;
+    
+
+
+
+
+
+}
+.h-secondary{
+    color:#973131;
+    font-size: 40px;
+
+    
+}
+#Home-content p{
+    margin-top: 10px;
+    color: #BC5A94;
+    width:600px;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
+.btn-1{
+    margin-top: 20px;
+    color:#F9D689;
+    background-color: #973131;
+    height:40px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+#main-img img{
+     
+    width:100%;
+    height:350px;
+
+
+}
+
+
+#about-content{
+    height:600px;
+    background-color: #F9D689;
+    margin-top: -6px;
+    
+
+}
+#about-img img{
+    height: 400px;
+    border-radius:100% 100% 100% 0%;
+    margin-top:56px;
+    margin-left: 200px;
+}
+#about-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -300px;
+  margin-left:250px;
+  
+  
+
+  
+    
+    
+}
+#about-main::before{
+    position: absolute;
+    content: "";
+
+
+    
+    
+}
+
+
+#about-p{
+        width: 350px;
+        padding-top:15px;
+        margin-left: 60px;
+        color:#BC5A94;
+        margin-left: 100px;
+
+}
+
+#offer-content{
+    height:620px;
+    background-color: #F9D689;
+    
+
+}
+#offer-content::before{
+    position:absolute;
+    content: "";
+    
+    background-image: url('./assests/close-up-woman-holding-taco-with-pink-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:90%;
+    width:100%;
+    z-index: -1;
+    
+    
+   
+    
+}
+
+#content-1{
+    margin-top:60px;
+   position: absolute;
+    margin-left: 50px;
+    
+    
+}
+
+.con1{
+     color:#d11c89;
+     font-size: 80px;
+     
+}
+.con2{
+    color:#973131;
+    font-size:60px ;
+    
+}
+.con3{
+    color:#9ED2BE;
+    font-size:80px ;
+}
+#content-1 p{
+   
+    margin-left: 60px;
+     line-height: 60px;
+    z-index: -1;
+
+    
+}
+
+
+#sec4{
+   
+    height:600px;
+    background-color: #973131;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+
+    
+}
+#sec4::before{
+    position: absolute;
+    content: "";
+    height:100%;
+    width:100%;
+    
+    
+
+
+}
+#sec4-content{
+   width:400px;
+   margin: 10px;
+   
+    
+     
+}
+#sec4-content p{
+    /* margin-top: 150px;
+    width:400px;
+    margin-left: 200px; */
+    margin: 10px;
+    margin-bottom: 20px;
+    color: #F9D689;
+    
+}
+#sec4-p p{
+    font-size: 20px;
+    color:#F9D689;
+}
+#img-content{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+#h-third{
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: #F9D689;
+}
+#img-content img{
+    height:600px;
+    width:550px;
+    
+    
+}
+.btn-4{
+    color:#973131;
+    background-color:#F9D689;
+    height:40px;
+    width: 200px;
+    border-radius: 20px;
+    display:block;
+}
+
+
+#sec5{
+    height:500px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    */
+}
+#sec5::before{
+    position: absolute;
+    content: "";
+    background-image: url('./assests/bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.70;
+    z-index: -1;
+    height:70%;
+    width:100%;
+}
+
+#sec5-img img{
+    height:250px;
+    width:300px;
+    
+}
+#sec5-img{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    
+}
+#sec5-con{
+ 
+    font-size: 20px;
+    width: 750px;
+    text-align: center;
+    color:#973131;
+    margin-bottom: 10px;
+    margin-top: -33px;
+} 
+
+#sec5-p{
+    color:#F9D689;
+    font-size:20px ;
+    margin-top: 4px;
+}
+
+#sec6{
+    height:600px;
+    background-color: #973131;
+
+}
+#sec6::before{
+    position: absolute;
+    content: "";
+    height: 90%;
+    width:100%;
+    background-color:#F5E7B2;
+    z-index: -1;
+}
+
+#sec6-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+#sec6-p{
+    margin-top: 20px;
+    font-size: 15px;
+    width:700px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #BC5A94;
+    
+}
+/* #sec6-p p{
+    width:250px;
+    font-size: 30px;
+} */
+#fourth{
+    text-align: center;
+    font-size: 45px;
+    margin-top: 150px;
+    color:#973131;
+}
+
+
+.search-email{
+    background-color: white;
+   border-color: none;
+    height:30px;
+    width:450px;
+    border-radius: 30px;
+}
+.search-email::placeholder{
+    font-size: 12px;
+    margin-left: 15px;
+    padding: 10px;border-color: none;
+
+}
+#sec6-input{
+    margin-top: 35px;
+}
+.btn-3{
+    background-color: #973131;
+    color:white;
+    height:33px;
+    width:120px;
+    border-radius: 30px;
+    margin-left: -50px;
+}
+
+#footer{
+    height:500px;
+    background-color: #973131;
+    margin-top: 310px;
+
+    width: 100%;
+    
+}
+#footer::before{
+ height:100%;
+ 
+ background-color: #973131;
+ position: absolute;
+ content: "";
+
+}
+#foot1{
+    margin-top: 140px;
+    margin-left: 50px;
+    width:300px;
+}
+
+ #foot1 h2{
+    color:#F9D689;
+    font-size: larger;
+    margin-bottom: 0px;
+}
+#foot1 p{
+    color:#F9D689;
+}
+#foot2{
+    display: flex;
+    height:300px;
+    justify-content: space-evenly;
+    margin-left: 200px;
+    
+    
+    
+}
+#foot2 ul{
+   
+    margin-top:-100px;
+    margin-left: -100px;
+    
+
+
+  
+}
+#foot2 ul a{
+    
+display: block;
+margin-top: 10px;
+color:#F5E7B2;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
