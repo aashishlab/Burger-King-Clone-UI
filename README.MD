@@ -11,7 +11,7 @@ This project is built to practice and demonstrate frontend development skills li
 - 📱 Fully Responsive Design
 - 🎨 Clean and Modern Layout
 - ⚡ Fast and Lightweight
-- 🧭 Easy Navigation
+
 
 ---
 
