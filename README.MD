@@ -20,7 +20,7 @@ This project is built to practice and demonstrate frontend development skills li
 - HTML5
 - CSS3
 - JavaScript
-- (Optional: Bootstrap / Tailwind CSS)
+
 
 ---
 
